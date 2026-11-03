@@ -3,11 +3,13 @@
 ![AlgoView Application Screenshot](screenshots/algoview.png)
 
 **An interactive sorting algorithm visualizer developed using Java and JavaFX.**
+
 AlgoView was developed as part of my bachelor's thesis in Computer Science at Roskilde University in Spring 2026.
 
 The project explores how interactive visual representations can support the understanding of sorting algorithms, particularly for students who find abstract algorithmic processes difficult to conceptualize.
 
 ## Motivation
+
 Throughout my Computer Science education, I often found it challenging to mentally visualize how algorithms operate, with YouTube animations providing little to no help.
 
 This inspired me to explore whether interactive visualizations could make these concepts more accessible to students facing similar difficulties.
@@ -15,6 +17,7 @@ This inspired me to explore whether interactive visualizations could make these 
 Rather than simply displaying the result of a sorting algorithm, AlgoView allows users to observe how the algorithm progresses, how elements are compared and rearranged, and how different sorting approaches behave.
 
 ## Features
+
 AlgoView provides modular interactive visualizations of three sorting algorithms:
 
 - **Bubble Sort** — Demonstrates comparisons and swaps between adjacent elements.
@@ -32,6 +35,7 @@ The application also includes:
 - Statistics tracking during execution.
 
 ## Technologies
+
 - **Java** — Application logic and sorting algorithm implementations.
 - **JavaFX** — Graphical user interface and animations.
 - **CSS** — Interface styling.
@@ -39,22 +43,66 @@ The application also includes:
 - **Figma** — Interface wireframing and design exploration.
 
 ## Research and Evaluation
+
 AlgoView was developed alongside my bachelor's thesis, *Learning Through Algorithm Visualization*.
 
 The research investigated whether visual representations and interface design choices could support the understanding of sorting algorithms in an educational context.
 
 The prototype was evaluated through semi-structured interviews with ten participants:
+
 - Five participants with a Computer Science background.
 - Five participants without prior Computer Science experience.
 
 ### Key Findings
+
 The research suggested that interactive visualizations can support users' general understanding of sorting behaviour, particularly among beginners.
 
 However, more complex algorithms such as Merge Sort and Quick Sort remained challenging for inexperienced users to fully understand without additional explanations.
 
 The findings highlight that visualization can be a valuable supplement to traditional teaching methods, but that effective interface design, contextual guidance, and user interaction remain essential.
 
+## Getting Started
+
+### Prerequisites
+
+- Java Development Kit (JDK)
+- Git
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/izzetbe/AlgoView.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd AlgoView
+```
+
+**3. Run the application**
+
+On macOS or Linux:
+
+```bash
+chmod +x mvnw
+./mvnw javafx:run
+```
+
+On Windows:
+
+```powershell
+.\mvnw.cmd javafx:run
+```
+
+Maven will download the required dependencies and launch the AlgoView application.
+
+*Note: The macOS launch instructions have been tested successfully. Windows and Linux have not yet been verified.*
+
 ## Project Background
+
 Developed during the sixth semester of my BSc in Computer Science at Roskilde University (Spring 2026).
 
 AlgoView combines my interests in software development, algorithms, human-computer interaction, and educational technology.
