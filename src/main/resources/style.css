@@ -1,0 +1,133 @@
+/* ROOT BACKGROUND */
+.root {
+    -fx-background-color: #5C2062; /* dark purple base */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== PANELS ===== */
+
+/* Main canvas area */
+.canvas {
+    -fx-background-color: #000000;
+    -fx-border-color: #6a2c70;
+    -fx-border-width: 6px;
+}
+
+/* Right code panel */
+.code-panel {
+    -fx-background-color: #000000;
+    -fx-border-color: #6a2c70;
+    -fx-border-width: 6px;
+}
+
+/* Bottom control bar */
+.control-bar {
+    -fx-background-color: #4b1d4b;
+    -fx-padding: 15;
+}
+
+/* ===== TEXT ===== */
+
+.label {
+    -fx-text-fill: #e6d6e6;
+    -fx-font-size: 14px;
+}
+
+.title-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Code lines */
+.text {
+    -fx-fill: #ffffff;
+    -fx-font-family: "Consolas";
+    -fx-font-size: 14px;
+}
+
+/* Highlighted line */
+.code-highlight {
+    -fx-fill: #ff4d4d; /* red */
+}
+
+/* ===== BUTTONS ===== */
+
+.button {
+    -fx-background-color: #6a2c70;
+    -fx-text-fill: white;
+    -fx-background-radius: 25;
+    -fx-padding: 7 20 7 20;
+    -fx-font-size: 14px;
+    -fx-width: 200px;
+}
+
+.button:hover {
+    -fx-background-color: #8a3c90;
+}
+
+.button:pressed {
+    -fx-background-color: #4b1d4b;
+}
+
+/* Special buttons */
+.start-button {
+    -fx-background-color: #7b2cbf;
+}
+
+.generate-button {
+    -fx-background-color: #9d4edd;
+}
+
+.pause-button {
+    -fx-background-color: #5a189a;
+}
+
+.step-button {
+    -fx-background-color: #7b2cbf;
+}
+
+/* ===== COMBOBOX ===== */
+
+.combo-box {
+    -fx-background-color: #6a2c70;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #6a2c70;
+    -fx-text-fill: white;
+}
+
+.combo-box:hover {
+    -fx-background-color: #8a3c90;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #8a3c90;
+}
+
+/* ===== SLIDER ===== */
+
+.slider .track {
+    -fx-background-color: #ffffff;
+}
+
+.slider .thumb {
+    -fx-background-color: #6a2c70;
+}
+
+/* ===== STATS ===== */
+
+.stats-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+.tooltip {
+    -fx-background-color: #6a2c70;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-background-radius: 8;
+    -fx-padding: 8;
+}
